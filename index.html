@@ -45,6 +45,7 @@
     type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/about.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -69,8 +70,6 @@
           <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
               href="#contact">Contact</a></li>
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-              href="assets/file/resume.pdf" target="_blank">Resume</a></li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
               href="https://www.linkedin.com/in/mominaman/" target="_blank">LinkedIn</a></li> -->
         </ul>
       </div>
@@ -83,7 +82,7 @@
       <div class="container">
         <div class="container d-flex align-items-center flex-column">
           <!-- Masthead Avatar Image-->
-          <img class="circular-image masthead-avatar mb-5" src="assets/img/avatar.jpg" alt="Ahmed Affraz Logo" />
+          <img class="circular-image masthead-avatar mb-5" src="assets/img/avatar2.jpg" alt="Ahmed Affraz Logo" />
           <!-- Masthead Heading-->
           <h1 class="masthead-heading text-uppercase mb-0">Ahmed Affraz</h1>
           <!-- Icon Divider-->
@@ -112,9 +111,10 @@
             </div>
             <div class="justify-content-center">
               <p class="lead text-center">
-                If you share the same passions as I do, feel free to connect 🤝 and message me on LinkedIn. I'd
-                love to collaborate and push the boundaries of what computers can do! Let's make a better world
-                together 🚀.
+                If you share the same passions as I do, feel free to connect 🤝 and message me on 
+                <a href="https://www.linkedin.com/in/ahmedaffraz/" target="_blank"
+									rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>.
+                I'd love to collaborate and push the boundaries of what computers can do! Let's make a better world together 🚀.
               </p>
             </div>
             <!-- <div class="resume-btn text-center mt-4">
@@ -126,8 +126,86 @@
           <!-- About Section Button-->
         </div>
       </div>
+
+      <br>
+      
+      <section class="expertise-section">
+					<div class="container">
+						<h2 class="text-uppercase text-center">Core Skills & Technologies</h2>
+						<div class="divider-custom">
+							<div class="divider-custom-line"></div>
+							<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+							<div class="divider-custom-line"></div>
+						</div>
+
+						<div class="row">
+
+              <div class="col-md-6 col-lg-4 mb-4">
+								<div class="card">
+									<h4>👨‍💻 Programming</h4>
+									<ul>
+										<li><strong>Languages</strong> <br> C/C++, C#, Python, Matlab</li>
+										<li><strong>Development Tools</strong> <br> Linux, Git, CMake, Visual Studio, VS Code, Conda</li>
+                    <li><strong>Backend</strong> <br> AWS, Containerization (Docker), Microservices, RESTful APIs</li>
+									</ul>
+                  <!-- TODO: Later -->
+                  <!-- <h4>🛠️ Hardware </h4>
+									<ul>
+										<li><strong>Cameras </strong> <br> Machine Vision Cameras</li>
+                    <li><strong>Edge devices </strong> <br> Nvidia Jetson, Raspberry Pi, Arduino, ESP32</li>
+                    <li> Machine Vision Cameras, Nvidia Jetson, Raspberry Pi</li>
+									</ul> -->
+								</div>
+							</div>							
+
+							<div class="col-md-6 col-lg-4 mb-4">
+								<div class="card">
+									<h4>🧮 High-Performance Computing</h4>
+									<ul>
+                    <li><strong>Skills</strong> <br> Parallel Programming, Parallel Algorithms, GPU Programming</li>
+										<li><strong>CPU</strong> <br> pthreads, OpenMP, Intel TBB, <br> AVX, NEON for ARM</li>
+                    <li><strong>NVIDIA</strong> <br> CUDA, cuDNN, GPU Architecture, Performance Profiling, Nsight Systems, Nsight Compute </li>
+                    <!-- TODO: Later -->
+                    <!-- <li><strong> CUDA Libraries </strong> <br> PyCUDA, Triton, CuPy, Numba, Thrust, CUB,  </li> -->
+									</ul>
+								</div>
+							</div>
+
+              <div class="col-md-6 col-lg-4 mb-4">
+								<div class="card">
+									<h4>🧠 AI & ML</h4>
+									<ul>
+										<li><strong>Skills</strong> <br> Computer Vision, Image Processing, Deep Learning, CNNs, LLMs</li>
+                    <li><strong>Frameworks & Libraries</strong> <br> OpenCV, Tensorflow, Keras, PyTorch, Numpy, Pandas, YOLO</li>
+                    <!-- TODO: Later -->
+                    <!-- <li><strong>Frameworks </strong> <br> OpenAI, HuggingFace, Ollama, LangChain </li>
+                    <li><strong>Techniques </strong> <br>  Fine-Tunning, RAG, Agentic Developement </li> -->
+									</ul>
+                  <h4>🛠️ Hardware </h4>
+									<ul>
+										<li><strong>Cameras </strong> <br> Machine Vision Cameras</li>
+                    <li><strong>Edge devices </strong> <br> Nvidia Jetson, Raspberry Pi, Arduino, ESP32</li>
+									</ul>
+								</div>
+							</div>
+
+              <!-- <div class="col-md-6 col-lg-4 mb-4">
+								<div class="card">
+									<h4>🛠️ Hardware </h4>
+									<ul>
+										<li><strong>Cameras </strong> <br> Machine Vision Cameras</li>
+                    <li><strong>Edge devices </strong> <br> Nvidia Jetson, Raspberry Pi, Arduino, ESP32</li>
+									</ul>
+								</div>
+							</div> -->
+
+						</div>
+					</div>
+				</section>
+
     </header>
   </section>
+
   <!-- Footer-->
   <footer class="footer text-center" id="contact">
     <div class="container">
@@ -136,8 +214,6 @@
         <h4 class="text-uppercase mb-4">Around the Web</h4>
         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/ahmedaffraz/" target="_blank"
           rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-        <!-- <a class="btn btn-outline-light btn-social mx-1" href="https://mominaman.itch.io/" target="_blank"
-          rel="noopener noreferrer" aria-label="Itch.io Profile"><i class="fab fa-itch-io"></i></a> -->
         <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/ahmedaffraz/" target="_blank"
           rel="noopener noreferrer" aria-label="Github Profile"><i class="fab fa-github"></i></a>
         <!-- <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/c/AhmedAffraz/" target="_blank"
@@ -150,7 +226,7 @@
   </footer>
   <!-- Copyright Section-->
   <div class="copyright py-4 text-center text-white">
-    <div class="container"><small>Copyright © Ahmed Affraz 2024</small></div>
+    <div class="container"><small>Copyright © Ahmed Affraz 2025</small></div>
   </div>
   <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
   <div class="scroll-to-top d-lg-none position-fixed">

@@ -1,0 +1,144 @@
+.circular-image {
+	border-radius: 50%;
+	/* Makes the element circular */
+	overflow: hidden;
+	/* Clips content outside the circle */
+	border: 2.5px solid #2D3339;
+}
+
+.circular-image img {
+	width: 100%;
+	/* Ensures the image fills the circular container */
+	height: auto;
+	display: block;
+}
+
+/* CORE SKILLS AND TECHNOLOGIES */
+.expertise-section {
+    padding: 20px 0 0 0;
+}
+
+.expertise-section h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #2c3e50;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+}
+
+.expertise-section h4 {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-top: 10px;
+	color: #2c3e50;
+}
+
+.expertise-section ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.expertise-section ul li {
+	font-size: 1rem;
+	padding: 5px 0;
+	color: #2c3e50;
+}
+
+.expertise-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.expertise-section .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0; /* Set top and bottom margin to 10px, left and right margin to 0 */
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1 1 calc(33.333% - 20px);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 100%; /* Ensure all cards have equal height */
+}
+
+.expertise-section .col-md-6, 
+.expertise-section .col-lg-4 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+@media (max-width: 768px) {
+	.expertise-section .col-md-6, 
+	.expertise-section .col-lg-4 {
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+}
+
+.divider-custom {
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0;
+	width: 100%;
+}
+
+.divider-custom-line {
+	width: 40%;
+	height: 2px;
+	background-color: #2c3e50;
+}
+
+.divider-custom-icon {
+	font-size: 1.5rem;
+	color: #1abc9c;
+	margin: 0 10px;
+}
+/* CORE SKILLS AND TECHNOLOGIES */
+
+/* EXPERIENCE SECTION */
+.experience-section {
+    padding: 80px 0;
+}
+
+.experience-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.experience-section .divider-custom {
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0;
+	width: 100%;
+}
+
+.experience-section .divider-custom-line {
+	width: 40%;
+	height: 4px;
+	background-color: #2c3e50;
+}
+
+.experience-section .divider-custom-icon {
+	font-size: 1.5rem;
+	color: #1abc9c;
+	margin: 0 10px;
+}
+
+.img-fluid.rounded-shadow {
+	margin-top: 20px;
+	width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* EXPERIENCE SECTION */
